@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.settings{
+    list-style: none;
+    border: 2px solid greenyellow;
+
+    width: cal(100%-1rem);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings a{
+    width: auto;
+}
